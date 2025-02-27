@@ -1,0 +1,9 @@
+nav class="nav">
+      <a href="#" class="nav-logo">Saja AL_Harbi</a>
+       <ul>
+          <li><a href="#personal-information">Personal Information</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact-us">Contact</a></li>
+        </ul>
+    </nav>
