@@ -46,12 +46,12 @@ nav {
   font-size: 16px;
   font-weight: 500;
   transition: color 0.3s ease-in-out;
+  font-weight: bold;
 }
 
-.nav ul li a:hover {
-  color: #41644A; 
+.nav ul li a:hover  {
+  color: #527853; 
 }
-
 
 header {
   background-color: #F1F0E9;
@@ -94,8 +94,8 @@ header {
   
 }
 .headerText h5 a  {
-  text-decoration: none; /* Removes underline */
-  color: #527853; /* Default text color */
+  text-decoration: none; 
+  color: #527853; 
   font-weight: 500;
   transition: color 0.3s ease-in-out;
   
@@ -152,71 +152,201 @@ section {
   margin-bottom: 20px;
 }
 
-.personal-information h1 {
-  color: #e4b275;
+.personal-information h2 {
+  color: #F1E6DA;
   font-size: 28px;
   margin-bottom: 10px;
 }
 
 .personal-information p {
-  font-size: 16px;
-  color: #f9eace;
+  font-size: 20px;
+  color: #A4BE7B;
+  max-width: 600px;
+}
+.personal-information .c2{
+  font-size: 20px;
+  color: #F1E6DA;
   max-width: 600px;
 }
 
 
-.education {
-  background-color: #F1F0E9;
- 
-  padding: 60px 5%;
-  border-radius: 10px;
-  width: 100vw;
-}
 
-.education h1 {
-  color: #630000;
+.educationED{
+  background-color: #630000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 100vw;
+  border-radius: 0px 0px  100% 0px  ;
+  
+}
+.educationED h2 {
+  
+  color: #A4BE7B;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.educationED p {
+  
+  color: #F1E6DA;
   font-size: 30px;
   margin-bottom: 20px;
+
 }
 
-.degree {
-  color: #A94A4A;
-  font-size: 20px;
-  margin-bottom: 10px;
+.educationED .c2 {
+  
+  color: #A4BE7B;
+  font-size: 30px;
+  margin-bottom: 20px;
+
 }
-.pp {
-  color: #527853;
-  font-size: 18px;
+.handpic {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center; 
+  margin-top: -80px; 
+}
+
+
+.handpic img {
+  width: auto;
+  max-width: 60%; 
+  height: auto;
+}
+.Interests{
+  background-color: #630000 ;
+  box-shadow : 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 100% 0px 0px;
+}
+.Interests h2{
+  color: #F1E6DA;
+  font-size: 50px;
+}
+.Interests p{
+  color: #A4BE7B;
+  font-size: 20px;
+}
+.red {
+  background-color: #630000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 100% 100%;
+  text-align: center; /* Centers the container */
+  padding: 20px;
+  position: relative;
+}
+
+.red img {
+  width: 150px; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensures it scales down on small screens */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.left {
+  left: 10px; /* Adjust for spacing */
+}
+
+.right {
+  right: 10px; /* Adjust for spacing */
+}
+
+
+.Certificates h2{
+ 
+  color: #630000;
+  font-size: 50px;
   margin-bottom: 20px;
 }
 
 
-
-.projects {
-  background-color: #0D4715;
-  padding: 60px 5%;
-  width: 100vw;
-  border-radius:  300px 300px 0px 0px;
-  text-align: center;
-  
-}
-.projects h1 {
-  color: #bdff7e;
+.projects h2 {
+  background-color: #630000;
+  color: #A4BE7B;
   font-size: 90px;
   margin-bottom: 20px;
-  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100vw;
+  border-radius: 0px 100%  0px 100% ;
 }
-.projects h2 {
-  color: #f9eace;
-  margin-bottom: 20px;
   
+.pint {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  max-width: 60%;
+  height: auto;
+  margin-right: 0;
+  margin-top: -80px;
 }
-.projects p{
-  color: #F1F0E9;
-  margin-bottom: 20px;
-  
+.pint img {
+  max-width: 60%; 
+  height: auto;
+  display: block;
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 90%);
+mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 90%);
 }
 
+
+
+.AirScan h3 {
+  color: #A94A4A;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.AirScan p{
+
+  color: #0D4715;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+.Desert h3 {
+  color: #A94A4A;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.Desert p{
+
+  color: #0D4715;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+
+.Language h3 {
+  color: #A94A4A;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.Language p{
+
+  color: #0D4715;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.Logistics h3 {
+  color: #A94A4A;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.Logistics p{
+
+  color: #0D4715;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -234,11 +364,21 @@ section {
 
 
 .gallery img {
-  width: 100%;
-  height: auto;
+  width: 250px; /* Fixed width for all images */
+  height: 250px; /* Fixed height for all images */
+  object-fit: contain; /* Ensures the whole image fits without cutting */
   border-radius: 10px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
+  background-color: #A4BE7B; /* Add a background to fill empty space */
+ 
+}
+
+@media (max-width: 768px) {
+  .gallery img {
+      width: 180px;
+      height: 180px;
+  }
 }
 
 
@@ -253,19 +393,19 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(252, 234, 229, 0.8); 
-  color: #630000;
+  background: rgba(254, 254, 254, 0.8); 
+  color: #0D4715;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 16px;
   font-weight: bold;
   font-style: normal;
-  border-radius: 10px;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
   text-align: center;
   padding: 15px;
+  border-radius: 10px;
 }
 
 
@@ -276,13 +416,14 @@ section {
 
 .contact-us {
   
-  background-color: #FFD700;
+  background: radial-gradient(circle, #A94A4A, #fdb1b1, #F1F0E9, #F1F0E9, #F1F0E9);
+
   color: #630000;
   padding: 60px 5%;
-  border-radius: 100% 0px 100% 0px ;
+  border-radius: 100% 100% 0px 0px ;
   width: 100vw;
 }
-.contact-us h1 {
+.contact-us h2 {
   display: inline-block;
   font-size: 40px;
   color: #630000;
@@ -298,11 +439,11 @@ section {
   margin: 10px;
   transition: 0.3s;
 }
-.contact-us h1:hover  {
-  color: #ff0000;
+.contact-us h2:hover  {
+  color: #ff00a6;
 }
 .contact-us a:hover  {
-  color: #ff0000;
+  color: #ff00a6;
 }
 
 
