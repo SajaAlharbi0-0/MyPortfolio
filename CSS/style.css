@@ -51,6 +51,18 @@ nav {
 .nav ul li a:hover  {
   color: #527853; 
 }
+@media (max-width: 375px) {
+  nav {
+    padding: 15px 20px; /* Reduce padding */
+  }
+
+  .nav ul {
+    flex-direction: column; /* Stack menu items */
+    gap: 15px; /* Reduce gap */
+    align-items: center;
+  }
+}
+
 
 header {
   background-color: #F1F0E9;
