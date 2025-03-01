@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -261,31 +260,45 @@ section {
   font-size: 50px;
   margin-bottom: 20px;
 }
-
-
-.projects h2 {
-  background-color: #630000;
-  color: #A4BE7B;
-  font-size: 90px;
-  margin-bottom: 20px;
+.projects{
+  font-family: 'Libre Baskerville', serif; 
+  background: linear-gradient(to bottom, #630000, #F1E6DA);
+  
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 100vw;
-  border-radius: 50px 50px  0px 0px;
+  border-radius: 50px 50px 0px 0px;
   text-align: center;
+  z-index: 1;
+  position: relative;
 }
-  
-.pint {
+
+.projects h2 {
+  color: transparent; 
+  -webkit-text-stroke: 1px #A4BE7B; 
+  font-size: 600%;
   display: flex;
   justify-content: flex-end; 
-  align-items: center; 
-  margin-top: -80px; 
-  background: linear-gradient(to bottom, #630000, #F1E6DA);
-
+  align-items: center;
+  z-index: 2; 
 }
-.pint img {
+
+.projects img {
+  
   max-width: 60%; 
   height: auto;
   display: block;
+  z-index: 3;
+  }
+  .projects h3 {
+  background: linear-gradient(to bottom, #630000, #630000, #ab0101, #ab0101);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 200px;
+    font-family: 'Libre Baskerville', serif; 
+    z-index: 7;
+    position: absolute; /* Places it above everything */
+    top: 50px; /* Adjust positioning as needed */
+    
   }
 
 
