@@ -231,26 +231,26 @@ section {
   background-color: #630000;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 0px 0px 100% 100%;
-  text-align: center; /* Centers the container */
+  text-align: center; 
   padding: 20px;
   position: relative;
 }
 
 .red img {
-  width: 150px; /* Adjust the size as needed */
-  height: auto; /* Maintain aspect ratio */
-  max-width: 100%; /* Ensures it scales down on small screens */
+  width: 150px; 
+  height: auto; 
+  max-width: 100%; 
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
 
 .left {
-  left: 10px; /* Adjust for spacing */
+  left: 10px; 
 }
 
 .right {
-  right: 10px; /* Adjust for spacing */
+  right: 10px; 
 }
 
 
@@ -302,11 +302,11 @@ section {
   font-size: 27vw;
   font-family: 'Libre Baskerville', serif; 
   z-index: 7;
-  position: absolute; /* Places it above everything */
-  top: 10vh; /* Moves text dynamically */
+  position: absolute; 
+  top: 10vh; 
   left: 50%;
   transform: translateX(-50%);
-  white-space: nowrap; /* Prevents wrapping */
+  white-space: nowrap; 
   }
 
 
@@ -392,13 +392,13 @@ section {
 
 
 .gallery img {
-  width: 250px; /* Fixed width for all images */
-  height: 250px; /* Fixed height for all images */
-  object-fit: contain; /* Ensures the whole image fits without cutting */
+  width: 250px; 
+  height: 250px; 
+  object-fit: contain; 
   border-radius: 10px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
-  background-color: #F1F0E9; /* Add a background to fill empty space */
+  background-color: #F1F0E9; 
  
 }
 
