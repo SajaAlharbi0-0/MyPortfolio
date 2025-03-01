@@ -136,7 +136,8 @@ section {
 }
 
 .personal-information {
-  background-color: #630000;
+  background: linear-gradient(to bottom, #630000, #800101, #980101, #ab0101, #df0202    );
+
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 40px;
   width: 100vw;
@@ -172,7 +173,8 @@ section {
 
 
 .educationED{
-  background-color: #630000;
+  background: linear-gradient(to top, #630000, #800101, #980101, #ab0101, #df0202    );
+
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 40px;
   width: 100vw;
@@ -268,36 +270,37 @@ section {
   margin-bottom: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 100vw;
-  border-radius: 0px 100%  0px 100% ;
+  border-radius: 50px 50px  0px 0px;
+  text-align: center;
 }
   
 .pint {
   display: flex;
-  justify-content: flex-end;
-  width: 100%;
-  max-width: 60%;
-  height: auto;
-  margin-right: 0;
-  margin-top: -80px;
+  justify-content: flex-end; 
+  align-items: center; 
+  margin-top: -80px; 
+  background: linear-gradient(to bottom, #630000, #F1E6DA);
+
 }
 .pint img {
   max-width: 60%; 
   height: auto;
   display: block;
-  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 90%);
-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 90%);
-}
+  }
 
 
 
-.AirScan h3 {
-  color: #A94A4A;
+ .AirScan h3 {
+  background-color: #630000;
+  color: #A4BE7B;
+  text-align: center;
   margin-bottom: 20px;
   font-size: 20px;
+ 
 }
 .AirScan p{
-
-  color: #0D4715;
+  text-align: center;
+  color: #630000;
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: bold;
@@ -306,13 +309,15 @@ mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 90
 
 
 .Desert h3 {
-  color: #A94A4A;
+  background-color: #630000;
+  color: #A4BE7B;
+  text-align: center;
   margin-bottom: 20px;
   font-size: 20px;
 }
 .Desert p{
-
-  color: #0D4715;
+  text-align: center;
+  color: #630000;
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: bold;
@@ -321,31 +326,33 @@ mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 90
 
 
 .Language h3 {
-  color: #A94A4A;
+  background-color: #630000;
+  color: #A4BE7B;
+  text-align: center;
   margin-bottom: 20px;
   font-size: 20px;
 }
 .Language p{
-
-  color: #0D4715;
+  text-align: center;
+  color: #630000;
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: bold;
-
 }
 
 .Logistics h3 {
-  color: #A94A4A;
+  background-color: #630000;
+  color: #A4BE7B;
+  text-align: center;
   margin-bottom: 20px;
   font-size: 20px;
 }
 .Logistics p{
-
-  color: #0D4715;
+  text-align: center;
+  color: #630000;
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: bold;
-
 }
 .gallery {
   display: flex;
@@ -370,7 +377,7 @@ mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 90
   border-radius: 10px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
-  background-color: #A4BE7B; /* Add a background to fill empty space */
+  background-color: #F1F0E9; /* Add a background to fill empty space */
  
 }
 
@@ -416,7 +423,7 @@ mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 90
 
 .contact-us {
   
-  background: radial-gradient(circle, #A94A4A, #fdb1b1, #F1F0E9, #F1F0E9, #F1F0E9);
+  background: radial-gradient(circle, #fe9494, #fdb1b1, #F1F0E9, #F1F0E9, #F1F0E9);
 
   color: #630000;
   padding: 60px 5%;
